@@ -1,0 +1,61 @@
+body {
+  background-color: lightslategrey;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: cornsilk;
+  border: 2px inset rgba(58, 210, 215, 0.143);
+  border-width: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 20px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table-heading{
+  text-align: center; 
+  background-color: cornsilk; 
+  padding: 15px;
+}
+
+td {
+  width: 300px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+tr{
+  background-color: azure;
+}
+
+table:hover {
+  box-shadow: 10px 10px 20px 20px rgba(108, 210, 215, 0.7);
+}
+
+.css-table{
+  margin-bottom: 40px;
+}
+
+.column-heading{
+  font-weight: bold;
+  border: 2px solid black;
+}
