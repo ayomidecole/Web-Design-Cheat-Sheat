@@ -63,3 +63,8 @@ header:hover{ /*Added in Box Shadow*/
   font-weight: bold;
   border: 2px solid black;
 }
+
+td.name{ /*added in table.name to make the text in the Name color bolder. Made it more specific so that changes in td will not affect this.*/
+  font-weight: bolder;
+  font-size: 25px;
+}
