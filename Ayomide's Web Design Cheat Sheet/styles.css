@@ -37,6 +37,7 @@ th, td {
 td {
   width: 300px;
   text-align: center;
+  font-size: 17px;
 }
 
 h1 {
@@ -47,11 +48,11 @@ tr{
   background-color: azure;
 }
 
-table:hover { 
+table:hover {
   box-shadow: 10px 10px 20px 20px rgba(108, 210, 215, 0.7);
 }
 
-header:hover{ /*Added in Box Shadow*/
+header:hover{   /*Added in Box Shadow*/
   box-shadow: 10px 5px 15px 5px rgba(195, 8, 8, 0.462)
 }
 
