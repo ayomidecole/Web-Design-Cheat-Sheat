@@ -21,6 +21,7 @@ table {
   margin: 20px auto;
   border-radius: 50px;
   overflow: hidden;
+  cursor: progress;
 }
 
 th, td {
