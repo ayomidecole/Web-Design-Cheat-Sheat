@@ -22,20 +22,20 @@
           </tr>
           <tr class='column-heading'>
             <th><h2>Name</h2></th>
-            <th><h2>Attriute</h2></th>
+            <th><h2>Selector/ Property</h2></th> <!--Chnaged from attribute to selector or propety-->
             <th><h2>Description</h2></th>
           </tr>
         </thead>
   
         <tbody>
           <tr>
-            <td>Padding</td>
+            <td class="name">Padding</td> <!--Added class="name" so that I can make the text in the Name Columns bolder-->
             <td>" padding: value; "</td>
             <td>This is the space between the context of a boc and the borders of a box. Padding is like space between a picture and the frame surrounding it.</td>
           </tr>
   
             <tr>
-            <td>Box Shadow</td>
+            <td class="name">Box Shadow</td>
             <td>" box-shadow: h-offset v-offset blur spread color; "</td>
             <td>The box-shadow property in CSS is used to create one or more shadow effects around an element. It allows you to control the size, position, blur, spread, and color of the shadow.
               <br>Here is a breakdown of the components:
@@ -48,15 +48,21 @@
           </tr>
   
           <tr>
-            <td>Hover</td>
+            <td class="name">Hover</td>
             <td>" selector:hover ; "</td>
             <td>When you use the :hover pseudo-class, the styles specified within the block will only be applied when the user's mouse pointer hovers over the selected element(s). Once the mouse pointer moves away from the element, the styles will revert to their original state.</td>
           </tr>
   
           <tr>
-            <td>Border Radius</td>
+            <td class="name">Border Radius</td>
             <td>" border-radius: value; "</td>
-            <td>My personal favorite becuase it makes everything look like a card. Borders are usually squares, with CSS a border does not have to be a square. You can use the border-radius property to modify the corners of an element's box.'</td>
+            <td>My personal favorite becuase it makes everything look like a card. Borders are usually squares, with CSS a border does not have to be a square. You can use the border-radius property to modify the corners of an element's box.</td>
+          </tr>
+
+          <tr>
+            <td class="name">Cursor</td>
+            <td>" cursor: value; "</td>
+            <td>You can use this to change how the cusror looks when it is applied to an element/box. When you hover any of the tables here, the cursor changes to wait. This is can be useful whe styling links </td>
           </tr>
   
         </tbody>
@@ -64,54 +70,54 @@
       </table>
       
     </div>
-
-        <!--Added in HTML table below-->
-        <div class='container'>
-          <table class='html-table'>
-            <thead>
-              <tr>
-                <th colspan='4' class='table-heading'><h1>HTML</h1></th>
-              </tr>
-              <tr class='column-heading'>
-                <th><h2>Name</h2></th>
-                <th><h2>Element/Tag</h2></th> 
-                <th><h2>Description</h2></th>
-              </tr>
-            </thead>
-      
-            <tbody>
-              <tr>
-                <td class="name">Anchor Tag</td>
-                <td>&lt;a href="some-link.com" title="explainer text for tooltip"&gt; text &lt;/a&gt;</td>
-                <td>One of the most powerful features of HTML is the ability to link to other pages. You can add links to webpages by adding an anchor element &lt;a&gt;. 
-                  The anchor tag is incomplete without a href attribute that links the file where the linked file is located. You can also add a title attribute to create tooltip text if you 
-                  hover over the link.</td>
-              </tr>
-      
-                <tr>
-                <td class="name"></td>
-                <td></td>
-                <td></td>
-              </tr>
-      
-              <tr>
-                <td class="name"></td>
-                <td></td>
-                <td></td>
-              </tr>
-      
-              <tr>
-                <td class="name"></td>
-                <td></td>
-                <td></td>
-              </tr>
-      
-            </tbody>
-      
-          </table>
-          
-        </div>
   
+    <!--Added in HTML table below-->
+    <div class='container'>
+        <table class='html-table'>
+          <thead>
+            <tr>
+              <th colspan='4' class='table-heading'><h1>HTML</h1></th>
+            </tr>
+            <tr class='column-heading'>
+              <th><h2>Name</h2></th>
+              <th><h2>Element/Tag</h2></th> 
+              <th><h2>Description</h2></th>
+            </tr>
+          </thead>
+    
+          <tbody>
+            <tr>
+              <td class="name">Anchor Tag</td>
+              <td>&lt;a href="some-link.com" title="explainer text for tooltip"&gt; text &lt;/a&gt;</td>
+              <td>One of the most powerful features of HTML is the ability to link to other pages. You can add links to webpages by adding an anchor element &lt;a&gt;. 
+                The anchor tag is incomplete without a href attribute that links the file where the linked file is located. You can also add a title attribute to create tooltip text if you 
+                hover over the link.</td>
+            </tr>
+    
+              <tr>
+              <td class="name"></td>
+              <td></td>
+              <td></td>
+            </tr>
+    
+            <tr>
+              <td class="name"></td>
+              <td></td>
+              <td></td>
+            </tr>
+    
+            <tr>
+              <td class="name"></td>
+              <td></td>
+              <td></td>
+            </tr>
+    
+          </tbody>
+    
+        </table>
+        
+      </div>
+
   </body>
   
   </html>
