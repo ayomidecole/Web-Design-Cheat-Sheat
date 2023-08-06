@@ -70,3 +70,12 @@ td.name{ /*added in table.name to make the text in the Name color bolder. Made i
   font-weight: bolder;
   font-size: 25px;
 }
+
+th{
+  background-color:rgba(0, 0, 0, 0.269);
+}
+
+tr.column-heading{
+  color: white;
+  font-size: 20px;
+}
