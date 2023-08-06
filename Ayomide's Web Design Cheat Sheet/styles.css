@@ -51,6 +51,10 @@ table:hover {
   box-shadow: 10px 10px 20px 20px rgba(108, 210, 215, 0.7);
 }
 
+header:hover{
+  box-shadow: 10px 5px 15px 5px rgba(195, 8, 8, 0.462)
+}
+
 .css-table{
   margin-bottom: 40px;
 }
