@@ -4,4 +4,4 @@ My web design cheat sheet, feel free to use this code as the basis to creating y
 Feel free to fork this repo and add your own styles. Maybe even create a HTML section. I will also document changes in this README.
 
 08/05/2023 - Ayomide Aremu-Cole
-- Added in a HTML cheat sheet table
+- Added in a HTML cheat sheet table, also added a boxshadow to the header.
